@@ -1,0 +1,64 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+body{
+    width: 1400px;
+    margin: 0 auto;
+    height: 900px;
+    background-image: radial-gradient(black, rgb(31, 29, 29));
+
+}
+img{
+    width: 100%;
+    max-height: 500px;
+}
+
+.navBar{
+    display: flex;
+    background-color: rgb(31, 29, 29);
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: 0 0 50px 0;
+}
+
+.navBar a{
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.mainMenu{
+    width: 50%;
+
+}
+
+.mainMenu li{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.drinks{
+    width: 50%;
+
+}
+
+.drinks li{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.none{
+    display: none;
+}
